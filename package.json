@@ -1,6 +1,6 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
+  "name": "st-cz-conventional-changelog",
+  "version": "1.0.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
     "test": "echo 'Tests need to be setup!'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/sarahtully/st-cz-conventional-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/sarahtully/st-cz-conventional-changelog.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Sarah Tully <hello@sarahtully.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
@@ -21,6 +21,7 @@
     "longest": "^1.0.1",
     "pad-right": "^0.2.2",
     "right-pad": "^1.0.1",
+    "colors": "^1.1.2",
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
