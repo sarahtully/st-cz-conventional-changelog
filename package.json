@@ -16,17 +16,12 @@
   "author": "Sarah Tully <hello@sarahtully.com>",
   "license": "MIT",
   "dependencies": {
-    "conventional-commit-types": "^2.0.0",
-    "lodash.map": "^4.5.1",
-    "longest": "^1.0.1",
-    "pad-right": "^0.2.2",
-    "right-pad": "^1.0.1",
     "colors": "^1.1.2",
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "commitizen": "2.9.6",
-    "semantic-release": "^6.3.2"
+    "commitizen": "1.0.5",
+    "semantic-release": "^4.3.5"
   },
   "czConfig": {
     "path": "./"
